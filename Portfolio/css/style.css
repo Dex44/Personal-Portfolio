@@ -1,0 +1,252 @@
+body
+{
+    background: #ccc;
+}
+
+#Header a:hover
+{
+    color: #fff;
+}
+
+#bg-img
+{
+    background: url('../img/everygirl-april-backgrounds-feature.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+#About
+{
+    margin-top: -200px;
+}
+
+#About .fa
+{
+    color: #fff;
+}
+
+#About span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#About hr
+{
+    border-width: 2px;
+    margin-top: 06px;
+}
+
+#Skills span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#Skills hr
+{
+    border-width: 2px;
+    margin-top: 06px;
+}
+
+#Services span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#Services hr
+{
+    border-width: 2px;
+    margin-top: 06px;
+}
+
+
+#Services .card
+{
+    border-top: 3px solid #d63031;
+}
+
+#Contact span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#Contact hr
+{
+    border-width: 2px;
+    margin-top: 06px;
+}
+
+#Skills-container
+{
+    padding-bottom: 20px !important;    
+}
+
+.footer-new ul
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-new ul li
+{
+    position: relative;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 50px;
+}
+
+.footer-new
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    padding-top: 30px; 
+}
+
+.footer-new ul li span
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px !important;
+}
+
+.footer-new ul li:hover span:nth-child(5)
+{
+    transform: translate(0px, -40px);
+    opacity: 1;
+}
+.footer-new ul li:hover span:nth-child(4)
+{
+    transform: translate(0px, -30px);
+    opacity: .8;
+}
+.footer-new ul li:hover span:nth-child(3)
+{
+    transform: translate(0px, -20px);
+    opacity: .6;
+}
+.footer-new ul li:hover span:nth-child(2)
+{
+    transform: translate(0px, -10px);
+    opacity: .4;
+}
+.footer-new ul li:hover span:nth-child(1)
+{
+    transform: translate(0px, -0px);
+    opacity: .2;
+}
+.footer-new ul li:nth-child(1) span
+{
+    background:  #3b5998;
+    border-radius: 50px;
+}
+.footer-new ul li:nth-child(2) span
+{
+    background:  #38A1F3;
+    border-radius: 50px;
+}
+.footer-new ul li:nth-child(3) span
+{
+    background:  #e4405f;
+    border-radius: 50px;
+}
+.footer-new ul li:nth-child(4) span
+{
+    background:  #333;
+    border-radius: 50px;
+}
+.footer-new ul li:nth-child(5) span
+{
+    background:  #dd4b39;
+    border-radius: 50px;
+}
+.footer-new ul li:hover span
+{
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, .1);
+    border-radius: 50px;
+}
+
+
+.collapse ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;    
+}
+.collapse ul li
+{
+    list-style: none;
+    margin: 0 20px;
+    transition: 0.5s;
+}
+
+.collapse ul li a
+{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: arial;
+    transition: 0.5s;
+    text-transform: uppercase;
+    color: #fff;
+}
+.collapse ul:hover li a 
+{
+    transform: scale(1.2);
+    opacity: .2;
+    filter: blur(5px);
+}
+.collapse
+{
+    padding-left: 450px;
+}
+.collapse ul li a:hover 
+{
+    transform: scale(1.5);
+    opacity: 1;
+    filter: blur(0);
+}
+
+.collapse ul li a::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+    width: 100%;
+    height: 70%;
+    background: #ff497c;
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scale(0);
+    z-index: -1;
+}
+.collapse ul li a:hover::before
+{
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scale(1);
+}
+
+.About:hover
+{
+    box-shadow: 0 25px 60px rgba(0, 0, 0, .8); 
+}
